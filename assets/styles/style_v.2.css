@@ -1,0 +1,141 @@
+/* ------------------------------------------------
+ Author: Noruberuto
+ 
+ Template Name: FOREVERCORP.
+ version: 1
+------------------------------------------------ */
+/* ------------------------------------------------
+
+/* -----------------------------------------------------------------
+    - General Styles
+----------------------------------------------------------------- */
+
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-x: hidden;
+}
+
+body, html {
+  font-size: 1rem;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #fff;
+    color: #110f10;
+    font-weight: 400;
+    line-height: 2;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased;
+    background: url(../images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: -10vw 20vh;
+    background-size: 232vh;
+}
+
+@media only screen and (max-width: 580px) {
+  body, html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@media only screen and (max-width: 580px) {
+    body {
+      line-height: 1.9;
+    }
+    .container__ {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .title {
+        margin-bottom: 3 vh;
+    }
+  }
+
+  @media only screen and (max-width: 1020px) {
+    body {
+      line-height: 1.9;
+    }
+    .container__ {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .title {
+        margin-bottom: 3 vh;
+    }
+  }
+
+/* -----------------------------------------------------------------
+    - Flex__Container Styles
+----------------------------------------------------------------- */
+.container__ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.content {
+    width: 100%;
+    background: url(assets/images/bg.svg);
+    background-position: left;
+    background-size: cover;
+}
+.mrg__m {
+    margin: 0 20vw 0 20vw;
+}
+.mrg__sm {
+    margin: 0 15px 0 15px;
+}
+/* -----------------------------------------------------------------
+    - Flex__Items Styles
+----------------------------------------------------------------- */
+.navbar {
+    margin: 14vh 0 14vh 0;
+}
+
+.left__ {
+    width: auto;
+    cbackground-color: salmon;
+}
+.right__ {
+    width: auto;
+    background-color: sandybrown;
+}
+
+
+a .logo-link {
+    width: 100%;
+    height: 32px;
+    
+}
+.logotype {
+    width: 18rem;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    line-height: 84px;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 700;
+    color: #EF233C;
+}
+.link:hover {
+    font-weight: 700;
+    color: #EF233C;
+}
